@@ -10,6 +10,12 @@ Ik heb vandaag de opdracht voor HCD doorgenomen. Ik heb gekozen voor Voorkeuren 
 
 Ik heb een figma design gemaakt en ben gestart met een begin ervan te coderen.
 
+**Figma Design**
+![figma-ontwerp](Images/figma-ontwerp.png) 
+
+**Code Design**
+![code-ontwerp](Images/code-ontwerp.png)
+
 **Hoe lang duurde het?**
 Ik ben een uur bezig geweest met het maken van de design: **1 uur**
 
@@ -23,9 +29,13 @@ Ik heb kennis gemaakt met de time element van html
 **Wat ga ik morgen doen?**
 Morgen ga ik de eerste test uitvoeren met berend en daar aantekeningen van maken. Zo kan alvast een begin maken met personaliseren van mijn web-app op zijn persoonlijke behoefte. 
 
+<details>
+<summary>Weekly Geek 1</summary>
 
+</details>
 
 ## Week 1/2
+**Weekly Geek**
 
 ## Week 2/1
 
