@@ -92,6 +92,25 @@ je kan knoppen weghalen bij een audio slider zoals de mute button anders zijn he
 uitgebeide beschrijving 
 niet alle buttons achter elkaar laten oplezen maar tussen stapjes 
 
+nvda creenreader
+
+meer feedback is beter 
+
+kijk naar de snel toetsen die nog vrij zijn bij nvda 
+
+verdergaan na dat je een startpositie hebt gekozen. dus niet weer helemaal boven aan beginnen.
+
+laptop telefoon gebruikt hij
+
+spraakberichten in signal en whatsapp gebruikt hij spraak
+gebruikt meer typen dan spraak berichten.
+
+gebruikt 6 knoppen om te typen. brial 
+
+met steekwoorden in een spraak bericht kunnen zoeken.
+
+een bookmark systeem waarbij je artikelen kan opslaan die je later weer kan opzoeken. Je komt op at5 en je selecteerd een artikeld. je kan dan die artikel opslaan en dan via een menu later weer opzoeken.
+
 
 
 berend@berendconnect.nl
