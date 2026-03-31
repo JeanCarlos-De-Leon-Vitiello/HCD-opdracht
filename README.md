@@ -31,11 +31,21 @@ Morgen ga ik de eerste test uitvoeren met berend en daar aantekeningen van maken
 
 <details>
 <summary>Weekly Geek 1</summary>
+Study situation <br>
+In plaats van alles oppervlakkig te proberen begrijpen, focus je op één specifieke gebruiker of situatie om echte, diepgaande inzichten te krijgen.
+
+<br>Ignore conventions
+Veel bestaande UX-patronen werken niet voor iedereen. Durf conventies los te laten als ze niet aansluiten bij bepaalde gebruikers (bijv. screenreader-gebruikers).
+
+Prioritise identity
+Niet alleen content is belangrijk — ook de identiteit en beleving van gebruikers. Betrek mensen met beperkingen actief als co-designers.
+
+Add nonsense 
+Omdat we nog niet alles weten, kan het helpen om onlogische ideeën te verkennen. Dit kan leiden tot onverwachte en waardevolle oplossingen.
 
 </details>
 
 ## Week 1/2
-**Weekly Geek Wooclap**
 
 **Testplan**
 Het doel van deze test is niet om een afgerond prototype te evalueren, maar om inzichten te verkrijgen in hoe Berend het web gebruikt.
