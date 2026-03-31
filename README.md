@@ -81,7 +81,20 @@ Wat mist er voor jou?
 * Wat zou een perfecte nieuwssite voor jou doen?
 
 **Bevindingen Test**
+gebruikt spraak software die heel snel voorleest.
+grote groene border om door de pagina heen heen te gaan.
 
+feedback nienke:
+spraak en opname 1 knop maken
+feedback geven bij bepaalde acties zoals: je bent nu aan het opnemen.
+je kan knoppen weghalen bij een audio slider zoals de mute button anders zijn het extra knoppen waar ik door moet.
+
+uitgebeide beschrijving 
+niet alle buttons achter elkaar laten oplezen maar tussen stapjes 
+
+
+
+berend@berendconnect.nl
 
 **Wat heb ik gedaan?**
 
