@@ -35,7 +35,55 @@ Morgen ga ik de eerste test uitvoeren met berend en daar aantekeningen van maken
 </details>
 
 ## Week 1/2
-**Weekly Geek**
+**Weekly Geek Wooclap**
+
+**Testplan**
+Het doel van deze test is niet om een afgerond prototype te evalueren, maar om inzichten te verkrijgen in hoe Berend het web gebruikt.
+
+Ik wil begrijpen:
+* hoe hij navigeert (toetsenbord / screenreader)
+* wat hij irritant vindt aan websites (vooral nieuwssites)
+* welke patronen en sneltoetsen hij gebruikt
+* wat voor hem een prettige ervaring is
+
+**Vragen**
+* Hoe gebruik jij meestal het internet?
+* Gebruik je een screenreader of vooral toetsenbord?
+* Lees je wel eens nieuws? Welke sites?
+* Wat vind je irritant aan die sites?
+* Hoe navigeer je meestal door een pagina?
+* Gebruik je bepaalde toetsen vaak?
+* Wat werkt bijna altijd slecht op websites?
+
+**Mijn Prototype**
+Opdracht 1
+Dit is een eerste idee. Wat denk je dat je hier kunt doen?
+
+Opdracht 2
+Wat zou jij hier willen doen?
+
+Opdracht 3
+Wat mist er voor jou?
+
+**Concept Vragen**
+* Zou je willen dat een site meteen bij de content begint?
+* Wat zou je altijd willen overslaan op een website?
+* Wat zou een perfecte nieuwssite voor jou doen?
+
+**Bevindingen Test**
+
+
+**Wat heb ik gedaan?**
+
+
+**Hoe lang duurde het?**
+
+
+**Wat heb ik geleerd?**
+
+
+**Wat ga ik volgende week doen?**
+
 
 ## Week 2/1
 
