@@ -111,6 +111,10 @@ met steekwoorden in een spraak bericht kunnen zoeken.
 
 een bookmark systeem waarbij je artikelen kan opslaan die je later weer kan opzoeken. Je komt op at5 en je selecteerd een artikeld. je kan dan die artikel opslaan en dan via een menu later weer opzoeken.
 
+idee: opslaan waar je bent gebleven op een website. bij de volgende keer dat je op de website komt dat je weet waar je bent gebleven.
+
+
+
 
 
 berend@berendconnect.nl

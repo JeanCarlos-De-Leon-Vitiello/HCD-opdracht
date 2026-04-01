@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,30 +9,35 @@
 </head>
 <body>
 
+    <a href="#main-content" class="skip-link">Ga direct naar hoofdinhoud</a>
+
     <header>
 
-        <nav>
+        <nav aria-label="Hoofdnavigatie">
 
             <h1>Dit moet je weten</h1>
 
             <ul>
-                <li>Nieuws</li>
-                <li>Archief</li>
-                <li>Over</li>
+                <li><a href="#">Nieuws</a></li>
+                <li><a href="#">Archief</a></li>
+                <li><a href="#">Over</a></li>
             </ul>
 
-            <a class="profile-button" href="/HTML/Profile.html">Profile</a>
+            <a class="profile-button" href="Profile.html">Profiel</a>
 
         </nav>
 
     </header>
 
 
-    <main>
+    <main id="main-content" tabindex="-1">
 
-        <aside>
+        <!-- artikel feedback -->
+        <p id="screenreader-feedback" aria-live="polite" class="screenreader-feedback"></p>
+
+        <aside aria-labelledby="shortcuts-heading">
             <div>
-                <h1 class="short-cuts">Short cuts</h1>
+                <h2 id="shortcuts-heading" class="short-cuts">Sneltoetsen</h2>
                 <p>Sneltoetsen voor radicale efficiëntie</p>
             </div>
 
@@ -75,11 +80,12 @@
             </ul>
         </aside>
 
-        <section>
+        <section aria-labelledby="nieuws-heading">
+            <h2 id="nieuws-heading">Hoofdnieuws</h2>
 
-            <div>
+            <article class="artikel-1" tabindex="-1" data-index="0">
                 <div>
-                    <h1>Waarom alles duurder wordt (en het niet jouw schuld is)</h1>
+                    <h3>Waarom alles duurder wordt (en het niet jouw schuld is)</h3>
                     <p>
                         De inflatie dendert voort, maar de oorzaken liggen elders. Een diepe duik in de
                         wereld van supply chains, energiecrisissen en waarom je portemonnee blijft huilen
@@ -90,11 +96,47 @@
 
                 <div>
                     <span>POLITIEK</span>
-                    <time datetime="">12 min geleden</time>
+                    <time datetime="2026-03-31T12:00">12 min geleden</time>
                 </div>
-            </div>
+            </article>
+
+            <article class="artikel-2" tabindex="-1" data-index="1">
+                <div>
+                    <h3>Waarom alles duurder wordt (en het niet jouw schuld is)</h3>
+                    <p>
+                        De inflatie dendert voort, maar de oorzaken liggen elders. Een diepe duik in de
+                        wereld van supply chains, energiecrisissen en waarom je portemonnee blijft huilen
+                        terwijl de winsten stijgen.
+                    </p>
+                    <img src="" alt="">
+                </div>
+
+                <div>
+                    <span>POLITIEK</span>
+                    <time datetime="2026-03-31T12:00">12 min geleden</time>
+                </div>
+            </article>
+
+            <article class="artikel-3" tabindex="-1" data-index="2">
+                <div>
+                    <h3>Waarom alles duurder wordt (en het niet jouw schuld is)</h3>
+                    <p>
+                        De inflatie dendert voort, maar de oorzaken liggen elders. Een diepe duik in de
+                        wereld van supply chains, energiecrisissen en waarom je portemonnee blijft huilen
+                        terwijl de winsten stijgen.
+                    </p>
+                    <img src="" alt="">
+                </div>
+
+                <div>
+                    <span>POLITIEK</span>
+                    <time datetime="2026-03-31T12:00">12 min geleden</time>
+                </div>
+            </article>
 
         </section>
+
+        
 
 
     </main>
