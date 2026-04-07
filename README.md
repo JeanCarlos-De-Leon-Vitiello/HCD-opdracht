@@ -146,6 +146,14 @@ Hierdoor verandert hoe we het internet gebruiken. Misschien hebben we in de toek
 
 AI blijft bestaan en zal een grote rol spelen op het internet. Ik denk zelf dat we AI overal moeten gebruiken waar het ons kan helpen. Waarom zou je iets niet gebruiken wat nog beter kan helpen met bepaalde taken.
 
+**Hoe lang duurde het?**
+
+
+**Wat heb ik geleerd?**
+
+
+**Wat ga ik volgende week doen?**
+
 ## Week 2/2
 
 ## Week 3/1
