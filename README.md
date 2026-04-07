@@ -47,7 +47,8 @@ Omdat we nog niet alles weten, kan het helpen om onlogische ideeën te verkennen
 
 ## Week 1/2
 
-**Testplan**
+<details>
+<summary>Testplan</summary>
 Het doel van deze test is niet om een afgerond prototype te evalueren, maar om inzichten te verkrijgen in hoe Berend het web gebruikt.
 
 Ik wil begrijpen:
@@ -113,14 +114,11 @@ een bookmark systeem waarbij je artikelen kan opslaan die je later weer kan opzo
 
 idee: opslaan waar je bent gebleven op een website. bij de volgende keer dat je op de website komt dat je weet waar je bent gebleven.
 
-
-
-
-
 berend@berendconnect.nl
+</details>
 
 **Wat heb ik gedaan?**
-
+Ik heb vandaag een paneel gemaakt met shortcuts die gebruikt kunnen worden voor het navigeren van de website. Ik heb besloten om een functie te maken die opslaat waar je wilt beginnen op een website en daar eventueel extra functie op toevoegen die gebasseerd is op de voorkeuren van berend.
 
 **Hoe lang duurde het?**
 
@@ -132,6 +130,21 @@ berend@berendconnect.nl
 
 
 ## Week 2/1
+
+weekly geek
+**Accessibility and the Agentic Web (samenvatting)**
+Veel websites zijn nog steeds moeilijk te gebruiken voor mensen met een beperking, zoals blinde mensen die een screenreader gebruiken. Je kunt vaak wel producten vinden en bestellen, maar er staat te weinig duidelijke informatie bij. Daardoor is het lastig om een goede keuze te maken.
+
+AI kan hierbij helpen, bijvoorbeeld door automatisch beschrijvingen van afbeeldingen te maken. Maar dit werkt niet altijd goed en kost vaak extra tijd.
+Een nieuwe ontwikkeling is agentic AI. Dit is een slimme assistent die niet alleen vragen beantwoordt, maar ook dingen voor je kan doen. Bijvoorbeeld: producten zoeken, filteren en in je winkelmandje zetten. Dit werkt als een persoonlijke assistent.
+
+Hierdoor verandert hoe we het internet gebruiken. Misschien hebben we in de toekomst minder websites nodig, omdat AI alles voor ons regelt.
+- Dit brengt wel nieuwe vragen:
+- Hoe zorgen we dat AI altijd duidelijke en toegankelijke informatie geeft?
+- Hoe kunnen we controleren of alles goed werkt?
+- Hoe houden we ons aan de regels voor toegankelijkheid?
+
+AI blijft bestaan en zal een grote rol spelen op het internet. Ik denk zelf dat we AI overal moeten gebruiken waar het ons kan helpen. Waarom zou je iets niet gebruiken wat nog beter kan helpen met bepaalde taken.
 
 ## Week 2/2
 
