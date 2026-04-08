@@ -155,6 +155,38 @@ AI blijft bestaan en zal een grote rol spelen op het internet. Ik denk zelf dat 
 **Wat ga ik volgende week doen?**
 
 ## Week 2/2
+<details>
+<summary>Test</summary>
+**Doel**
+
+**Vragen**
+* wat zou je opslaan als start positie.
+* Hoe navigeer je meestal door een pagina?
+* Gebruik je bepaalde toetsen vaak?
+* Wat werkt bijna altijd slecht op websites?
+
+**Bevindingen Test**
+Vind het nice dat je vier koppen veder kan navigeren inplaats van 1 voor 1 voorbij navigeren.
+
+feedback andere: sneltoetsen ingewikkelder maken.
+
+feedback bij een actie dus als je iets opslaat dat de screenreader feedback geeft.
+
+snel toetsen anders maken. control shift p zou kunnen.
+
+paneel oproepen beter dan ergens verstoppen
+
+het zou leuk zijn als je artikelen kon opslaan op basis van de title.
+
+**Hoe lang duurde het?**
+
+
+**Wat heb ik geleerd?**
+
+
+**Wat ga ik volgende week doen?**
+
+</details>
 
 ## Week 3/1
 
