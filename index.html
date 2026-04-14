@@ -6,6 +6,8 @@
     <title>HCD</title>
     <link rel="stylesheet" href="CSS/index.css">
     <script src="JS/index.js" defer></script>
+    <script src="JS/artikelOpslaan.js" defer></script>
+    <script src="JS/paneelOpenSluiten.js" defer></script>
 </head>
 <body>
 
@@ -29,7 +31,7 @@
 
     </header>
 
-    <section id="hulp-paneel" class="hulp-paneel" aria-labelledby="hulp-heading" tabindex="0">
+    <section id="hulp-paneel" class="hulp-paneel" aria-labelledby="hulp-heading" tabindex="-1">
         <section>
             <h2 id="hulp-heading">Hulppaneel</h2>
 
@@ -37,23 +39,27 @@
             <H3>WEBSITE STARTPOSITIE</H3>
             <!-- bron: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/kbd -->
             <p>
-            Druk op <kbd>Shift</kbd> + <kbd>P</kbd>  om je huidige positie op te slaan als startpositie.
+            Druk op <kbd>Ctrl</kbd> <kbd>Shift</kbd> + <kbd>P</kbd>  om je huidige positie op te slaan als startpositie van de website.
+            </p>
+
+            <h3>Artikel opslaan</h3>
+            <p>
+            Druk op <kbd>Ctrl</kbd> <kbd>Shift</kbd> + <kbd>S</kbd>  om het huidige artikel op te slaan in de bookmarks.
             </p>
 
             <h3>Hulppaneel openen</h3>
             <p>
-            Druk op <kbd>Shift</kbd> + <kbd>H</kbd>  voor het open of sluit van het hulppaneel.
+            Druk op <kbd>Ctrl</kbd> <kbd>Shift</kbd> + <kbd>H</kbd>  voor het open of sluit van het hulppaneel.
             </p>
 
             <h3>Bookmarks Bekijken</h3>
             <p>
-                Druk op <kbd>Shift</kbd> + <kbd>M</kbd>  om naar je opgeslagen artikelen te gaan.
+                Druk op <kbd>Ctrl</kbd> <kbd>Shift</kbd> + <kbd>M</kbd>  om naar je opgeslagen artikelen te gaan.
             </p>
         </section>
             
         <section id="opgeslagen-startposities">
-            <h2>Opgeslagen Bookmarks <span>(1)</span></h2>
-            <a href="#"></a>
+            <h2>Opgeslagen Bookmarks</h2>
         </section>
     </section>
 
@@ -107,7 +113,7 @@
                 <li class="nieuws-item">
                     <article class="artikel-3">
                         <div>
-                            <h3><a href="#" id="artikel-link-3">Waarom alles duurder wordt (en het niet jouw schuld is)</a></h3>
+                            <h3><a href="#" id="artikel-link-3">Waarom benzine duurder wordt (en het niet jouw schuld is)</a></h3>
                             <p>
                                 De inflatie dendert voort, maar de oorzaken liggen elders. Een diepe duik in de
                                 wereld van supply chains, energiecrisissen en waarom je portemonnee blijft huilen

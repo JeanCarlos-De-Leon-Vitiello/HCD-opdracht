@@ -23,7 +23,7 @@ function saveStartPositie() {
 
     localStorage.setItem(startPositieKey, element.id);
 }
-
+// bron: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
 function restoreStartPositie() {
     const opgeslagenId = localStorage.getItem(startPositieKey);
 
@@ -39,9 +39,9 @@ function restoreStartPositie() {
 
     element.focus();
 }
-
+// bron: https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event
 document.addEventListener("keydown", function (event) {
-    if (event.shiftKey && event.key.toLowerCase() === "p") {
+    if (event.ctrlKey && event.shiftKey && event.key.toLowerCase() === "p") {
         event.preventDefault();
         saveStartPositie();
     }

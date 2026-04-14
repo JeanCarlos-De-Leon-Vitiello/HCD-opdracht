@@ -118,16 +118,18 @@ berend@berendconnect.nl
 </details>
 
 **Wat heb ik gedaan?**
-Ik heb vandaag een paneel gemaakt met shortcuts die gebruikt kunnen worden voor het navigeren van de website. Ik heb besloten om een functie te maken die opslaat waar je wilt beginnen op een website en daar eventueel extra functie op toevoegen die gebasseerd is op de voorkeuren van berend.
+Ik heb vandaag een paneel gemaakt met shortcuts die gebruikt kunnen worden voor het navigeren van de website. Ik heb besloten om een functie te maken die opslaat waar je wilt beginnen op een website en daar eventueel extra functie op toevoegen die gebasseerd is op de voorkeuren van berend. Ik heb ook een nep nieuws site gemaakt die ik als voorbeeld site ga gebruiken
 
 **Hoe lang duurde het?**
-
+het duurde mij ongeveer 3 uurtjes om het idee te bedenken een een opzetje te maken.
 
 **Wat heb ik geleerd?**
+Uit de test met Berend heb ik geleerd dat een website vooral duidelijk, rustig en voorspelbaar moet zijn. Hij gebruikt een screenreader en toetsenbord om te navigeren, dus te veel knoppen of onnodige onderdelen maken een website lastig te gebruiken. Ook heb ik geleerd dat extra feedback belangrijk is, bijvoorbeeld wanneer je een actie uitvoert zoals opnemen of iets opslaan.
 
+Daarnaast merkte ik dat persoonlijke functies veel kunnen toevoegen aan de ervaring. Een website die onthoudt waar je bent gebleven of waarmee je artikelen kunt opslaan, sluit beter aan op zijn behoeften.
 
 **Wat ga ik volgende week doen?**
-
+Volgende week wil ik een functie maken die onthoud waar de gebruiker wil starten op een website zodat elke keer dat de gebruiker op de website komt hij op een vaste gewenste plek start.
 
 ## Week 2/1
 
@@ -146,13 +148,29 @@ Hierdoor verandert hoe we het internet gebruiken. Misschien hebben we in de toek
 
 AI blijft bestaan en zal een grote rol spelen op het internet. Ik denk zelf dat we AI overal moeten gebruiken waar het ons kan helpen. Waarom zou je iets niet gebruiken wat nog beter kan helpen met bepaalde taken.
 
-**Hoe lang duurde het?**
-
+**Wat heb ik gedaan?**
+- functie om de element met focus op te halen 
+- functie om die element zijn id op te slaan onder de naam startPositieKey in local storage
+- functie om de opgeslagen id uit de localstorage te halen en de element ophalen van de html document
+- keydown event gemaakt voor de shortcut om een artikel op te slaan
+- load event om de opeslagen positie te focussen elke keer dat je de page herlaad
 
 **Wat heb ik geleerd?**
+- Ik heb geleerd hoe ik met JavaScript kan achterhalen welk element op dat moment focus heeft(document.activeElement)
 
+- Ik heb geleerd hoe ik gegevens kan opslaan in localStorage, zodat een gekozen startpositie bewaard blijft, ook wanneer de pagina opnieuw wordt geladen.
+
+- Ik heb geleerd hoe ik een opgeslagen id weer kan ophalen en gebruiken om hetzelfde element opnieuw focus te geven in de pagina.
+
+- Ik heb geleerd hoe keydown events werken en hoe je daarmee een sneltoets kunt maken voor een functie, zoals het opslaan van een artikel.
+
+- Ik heb geleerd dat een load event handig is om functies automatisch uit te voeren wanneer de pagina opent bijvoorbeeld om de opgeslagen positie direct terug te zetten.
 
 **Wat ga ik volgende week doen?**
+Volgende week wil ik:
+- shortcut voor het openen en sluiten van het hulppaneel 
+- geluid laten afspelen wanneer je iets hebt opgeslagen. 
+- short cuts aanpassen zodat het niet in tegenstrijd is met de screenreader die berend gebruikt
 
 ## Week 2/2
 <details>
@@ -177,6 +195,15 @@ snel toetsen anders maken. control shift p zou kunnen.
 paneel oproepen beter dan ergens verstoppen
 
 het zou leuk zijn als je artikelen kon opslaan op basis van de title.
+</details>
+
+**Wat heb ik gedaan?**
+- sortcuts aangepast en dat ook in de paneel verwerkt.
+- geluid toegevoed zodra je een artikel opslaat
+- shortcut voor de paneel openen en sluiten maken
+
+nog te doen:
+- getest met berend
 
 **Hoe lang duurde het?**
 
@@ -186,9 +213,66 @@ het zou leuk zijn als je artikelen kon opslaan op basis van de title.
 
 **Wat ga ik volgende week doen?**
 
-</details>
 
 ## Week 3/1
+**Wat heb ik gedaan?**
+
+
+**Hoe lang duurde het?**
+
+
+**Wat heb ik geleerd?**
+
+
+**Wat ga ik volgende week doen?**
 
 ## Week 3/2
+<details>
+<summary>Test</summary>
+**Doel**
+
+**Vragen**
+* Wat vind je van de feedback die je krijgt bij het opslaan van article?
+* zou je dit ook willen bij het opslaan van de starpositie?
+* als je control shift h doet dan focus je op het paneel zou je hier de elementen in de paneel in de tab volgorden willen? en zou je het paneel ook met een shortcut uit willen?
+* is het nodig om het paneel zichtbaar te maken?
+* zou je de paneel in de tab volgorde willen?
+
+**Bevindingen test**
+
+</details>
+
+**Wat heb ik gedaan?**
+
+
+**Hoe lang duurde het?**
+
+
+**Wat heb ik geleerd?**
+
+
+**Wat ga ik volgende week doen?**
+
+## Bronnen
+**Keydown event:** 
+https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event
+
+**load event**
+https://developer.mozilla.org/en-US/docs/Web/API/Window/load_event
+
+**Localstorage**
+https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+
+**Clonenode**
+https://developer.mozilla.org/en-US/docs/Web/API/Node/cloneNode
+
+**appentChild()**
+https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
+
+**newSound(path/url)**
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement/Audio?utm_source=chatgpt.com
+
+**play()**
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play?utm_source=chatgpt.com
+bron Geluid: https://pixabay.com/sound-effects/search/success/?utm_source=chatgpt.com
 

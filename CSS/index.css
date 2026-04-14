@@ -126,7 +126,18 @@ header {
     gap: 1rem;
 
     /* hulp paneel hidden maken */
-    /* display: none; */
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    left: -9999px;
+    
+}
+
+.hulpPaneelOpen {
+    opacity: 1;
+    pointer-events: auto;
+    position: static;
+
 }
 
 .hulp-paneel > section {
