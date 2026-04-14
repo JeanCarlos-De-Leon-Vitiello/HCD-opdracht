@@ -175,8 +175,6 @@ Volgende week wil ik:
 ## Week 2/2
 <details>
 <summary>Test</summary>
-**Doel**
-
 **Vragen**
 * wat zou je opslaan als start positie.
 * Hoe navigeer je meestal door een pagina?
@@ -199,10 +197,6 @@ het zou leuk zijn als je artikelen kon opslaan op basis van de title.
 
 **Wat heb ik gedaan?**
 - sortcuts aangepast en dat ook in de paneel verwerkt.
-- geluid toegevoed zodra je een artikel opslaat
-- shortcut voor de paneel openen en sluiten maken
-
-nog te doen:
 - getest met berend
 
 **Hoe lang duurde het?**
@@ -216,7 +210,8 @@ nog te doen:
 
 ## Week 3/1
 **Wat heb ik gedaan?**
-
+- shortcut voor de paneel openen en sluiten maken
+- geluid toegevoed zodra je een artikel opslaat
 
 **Hoe lang duurde het?**
 
@@ -229,27 +224,45 @@ nog te doen:
 ## Week 3/2
 <details>
 <summary>Test</summary>
-**Doel**
-
 **Vragen**
 * Wat vind je van de feedback die je krijgt bij het opslaan van article?
 * zou je dit ook willen bij het opslaan van de starpositie?
 * als je control shift h doet dan focus je op het paneel zou je hier de elementen in de paneel in de tab volgorden willen? en zou je het paneel ook met een shortcut uit willen?
 * is het nodig om het paneel zichtbaar te maken?
 * zou je de paneel in de tab volgorde willen?
+* mogelijkheid om de bookmark te verwijderen?
 
 **Bevindingen test**
+- de geluid die ik heb gebruikt voor het opslaan van artikelen vind hij heel goed.
+- andere feedback voor het opslaan van een positie. dus niet hetzelfde als opslaan van artikelen.
+- zijn screenreader neemt de tab volgorde niet mee. dus als hij focust op een element da n gaat de website focus niet mee.
+- de elementen in de hulppaneel in de tab volgorde zetten.
+- de nieuwe save boven aan zetten in de lijst
+- je kan meerdere keren een artikel opslaan dat is niet handig.
+- hij heeft niks gezegt over de short cuts dus ik ga er van uit dat ze goed zijn.
+
+**Extra ideeen**
+- Tekst grotes kunnen aanpassen.
+- kop grotes kunnen aanpassen.
+- focus border dikte kunnen aanpassen.
+- border color kunnen aanpassen.
+
 
 </details>
 
 **Wat heb ik gedaan?**
-
+- functie voor het controlleren of er al een link in de paneel bestaat die je weer probeerd op te slaan om dubbele bookmarks te voorkomen.
+- de nieuwe artikel save boven in de lijst toevoegen door prepend te gebruiken inplaats van appendChild
 
 **Hoe lang duurde het?**
 
 
 **Wat heb ik geleerd?**
+.som(): ik heb geleerd dat je met .some() kunt controleren of er in een array minstens één item is dat aan een bepaalde voorwaarde voldoet waardoor je een boolean terug krijgt.
 
+spread syntax [...]: ik heb geleerd dat je met de spread syntax een array kunt kopiëren of samenvoegen, en meerdere waarden in een nieuwe array kunt zetten.
+
+prepend(): ik heb geleerd dat je met prepend() een element boven de anderen children kan plaatsen. terwijl appendChild() het onder de children plaatst.
 
 **Wat ga ik volgende week doen?**
 
@@ -276,3 +289,11 @@ https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement/Audio?utm_sour
 https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play?utm_source=chatgpt.com
 bron Geluid: https://pixabay.com/sound-effects/search/success/?utm_source=chatgpt.com
 
+**.som()**
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some
+
+**spread syntax[...]**
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+
+**prepend()**
+https://developer.mozilla.org/en-US/docs/Web/API/Element/prepend
