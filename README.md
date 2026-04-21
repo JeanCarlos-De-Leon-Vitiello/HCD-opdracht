@@ -235,8 +235,8 @@ het zou leuk zijn als je artikelen kon opslaan op basis van de title.
 **Bevindingen test**
 - de geluid die ik heb gebruikt voor het opslaan van artikelen vind hij heel goed.
 - andere feedback voor het opslaan van een positie. dus niet hetzelfde als opslaan van artikelen.
-- zijn screenreader neemt de tab volgorde niet mee. dus als hij focust op een element da n gaat de website focus niet mee.
-- de elementen in de hulppaneel in de tab volgorde zetten.
+- zijn screenreader neemt de tab volgorde niet mee. dus als hij focust op een element dan gaat de website focus niet mee.
+- de elementen in de hulppaneel in de tab volgorde zetten. dit zullen andere gebruikers ook heel erg waarderen.
 - de nieuwe save boven aan zetten in de lijst
 - je kan meerdere keren een artikel opslaan dat is niet handig.
 - hij heeft niks gezegt over de short cuts dus ik ga er van uit dat ze goed zijn.
@@ -263,6 +263,48 @@ het zou leuk zijn als je artikelen kon opslaan op basis van de title.
 spread syntax [...]: ik heb geleerd dat je met de spread syntax een array kunt kopiëren of samenvoegen, en meerdere waarden in een nieuwe array kunt zetten.
 
 prepend(): ik heb geleerd dat je met prepend() een element boven de anderen children kan plaatsen. terwijl appendChild() het onder de children plaatst.
+
+**Wat ga ik volgende week doen?**
+
+## Week 4/1
+**Wat heb ik gedaan?**
+- feedback bij het opslaan van een start positie. Bij elementen waarop je geen start positie kan opslaan krijg je ook een melding.
+- functie om opgeslagen links te kunnen verwijderen.
+- De shortcuts in de hulpaneel in de tab volgorde gezet.
+
+**Hoe lang duurde het?**
+
+
+**Wat heb ik geleerd?**
+
+
+**Wat ga ik volgende keer doen?**
+uitzoeken waarom de screen reader en browser focus niet samen bewegen.
+testen of de feedback van het opslaan van een positie ook bij hem maar 1 keer gebeurd.
+
+## Week 4/2
+<details>
+<summary>Test</summary>
+
+**Vragen**
+- kan je een start positie opslaan?
+- kan je op een element die je niet kan opslaan op opslaan drukken?
+
+
+**Bevindingen test**
+
+
+
+</details>
+
+**Wat heb ik gedaan?**
+
+
+**Hoe lang duurde het?**
+
+
+**Wat heb ik geleerd?**
+
 
 **Wat ga ik volgende week doen?**
 

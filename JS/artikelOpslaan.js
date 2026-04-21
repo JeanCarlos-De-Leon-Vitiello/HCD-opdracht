@@ -29,9 +29,22 @@ function artikelOpslaan() {
     savesound.play()
 }
 
+function verwijderOpgeslagenArtikel() {
+    const activeElement = document.activeElement;
+    const opgeslagenLink = activeElement.closest("#opgeslagen-links a");
+
+    opgeslagenLink.parentElement.remove();
+}
+
+
 document.addEventListener("keydown", function (event) {
     if (event.ctrlKey && event.shiftKey && event.key.toLowerCase() === "s") {
         event.preventDefault();
         artikelOpslaan();
+    }
+
+    if (event.ctrlKey && event.shiftKey && event.key.toLowerCase() === "r") {
+        event.preventDefault();
+        verwijderOpgeslagenArtikel();
     }
 });

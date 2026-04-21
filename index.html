@@ -8,9 +8,12 @@
     <script src="JS/index.js" defer></script>
     <script src="JS/artikelOpslaan.js" defer></script>
     <script src="JS/paneelOpenSluiten.js" defer></script>
+    <script src="JS/tekstAanpassen.js" defer></script>
 </head>
-<body>
 
+<body>
+    <p id="screenreader-feedback" role="status" aria-atomic="true" class="screenreader-feedback" aria-live="assertive">Feedback</p>
+    
     <a href="#main-content" class="skip-link" id="skip-to-main">Ga direct naar hoofdinhoud</a>
 
     <header>
@@ -25,7 +28,7 @@
                 <li><a href="#" id="nav-over">Over</a></li>
             </ul>
 
-            <a class="profile-button" href="Profile.html" id="profile-link">Profiel</a>
+            <a class="profile-button" href="Profile.html" >Profiel</a>
 
         </nav>
 
@@ -34,28 +37,43 @@
     <section id="hulp-paneel" class="hulp-paneel" aria-labelledby="hulp-heading" tabindex="-1">
         <section>
             <h2 id="hulp-heading">Hulppaneel</h2>
+            
 
+            <div tabindex="0">
+                <h3>Website startpositie</h3>
+                <!-- bron: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/kbd -->
+                <p>
+                Druk op <kbd>Ctrl</kbd> <kbd>Shift</kbd> + <kbd>P</kbd> om je huidige positie op te slaan als startpositie van de website.
+                </p>
+            </div>
 
-            <H3>WEBSITE STARTPOSITIE</H3>
-            <!-- bron: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/kbd -->
-            <p>
-            Druk op <kbd>Ctrl</kbd> <kbd>Shift</kbd> + <kbd>P</kbd>  om je huidige positie op te slaan als startpositie van de website.
-            </p>
+            <div tabindex="0">
+                <h3>Artikel opslaan</h3>
+                <p>
+                Druk op <kbd>Ctrl</kbd> <kbd>Shift</kbd> + <kbd>S</kbd> om het huidige artikel op te slaan in de bookmarks.
+                </p>
+            </div>
 
-            <h3>Artikel opslaan</h3>
-            <p>
-            Druk op <kbd>Ctrl</kbd> <kbd>Shift</kbd> + <kbd>S</kbd>  om het huidige artikel op te slaan in de bookmarks.
-            </p>
+            <div tabindex="0">
+                <h3>Artikel verwijderen</h3>
+                <p>
+                    Druk op <kbd>Ctrl</kbd> <kbd>Shift</kbd> + <kbd>R</kbd> om het huidige artikel te verwijderen uit de bookmarks.
+                </p>
+            </div>
 
-            <h3>Hulppaneel openen</h3>
-            <p>
-            Druk op <kbd>Ctrl</kbd> <kbd>Shift</kbd> + <kbd>H</kbd>  voor het open of sluit van het hulppaneel.
-            </p>
+            <div tabindex="0">
+                <h3>Hulppaneel openen</h3>
+                <p>
+                Druk op <kbd>Ctrl</kbd> <kbd>Shift</kbd> + <kbd>H</kbd> voor het openen of sluiten van het hulppaneel.
+                </p>
+            </div>
 
-            <h3>Bookmarks Bekijken</h3>
-            <p>
-                Druk op <kbd>Ctrl</kbd> <kbd>Shift</kbd> + <kbd>M</kbd>  om naar je opgeslagen artikelen te gaan.
-            </p>
+            <div tabindex="0">
+                <h3>Bookmarks bekijken</h3>
+                <p>
+                    Druk op <kbd>Ctrl</kbd> <kbd>Shift</kbd> + <kbd>M</kbd> om naar je opgeslagen artikelen te gaan.
+                </p>
+            </div>
         </section>
             
         <section>
@@ -67,7 +85,6 @@
 
     <main tabindex="0" id="main-content">
 
-        <!-- artikel feedback -->
 
         <section id="nieuws-sectie" aria-labelledby="nieuws-heading" tabindex="0">
             <h2 id="nieuws-heading">Hoofdnieuws</h2>

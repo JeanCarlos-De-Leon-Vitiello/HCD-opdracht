@@ -10,19 +10,38 @@ function krijgHuidigeFocus() {
     return element;
 }
 
+// geeft feedback wanneer je een start positie opslaat
+function geefFeedback(bericht) {
+    const feedbackElement = document.getElementById("screenreader-feedback");
+    feedbackElement.textContent = "";
+    
+    setTimeout(function() {
+        feedbackElement.textContent = bericht;
+
+        setTimeout(function() {
+            feedbackElement.textContent = "";
+        }, 1000);
+    }, 500);
+}
+
 function saveStartPositie() {
     const element = krijgHuidigeFocus();
 
-    if (!element) {
+     if (!element) {
+        geefFeedback("Er is geen startpositie geselecteerd.");
         return;
     }
 
     if (!element.id) {
+        geefFeedback("Dit element kan niet worden opgeslagen.");
         return;
     }
 
     localStorage.setItem(startPositieKey, element.id);
+    geefFeedback("Startpositie opgeslagen");
 }
+
+
 // bron: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
 function restoreStartPositie() {
     const opgeslagenId = localStorage.getItem(startPositieKey);
