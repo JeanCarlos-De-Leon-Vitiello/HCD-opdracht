@@ -29,11 +29,35 @@ function artikelOpslaan() {
     savesound.play()
 }
 
+
+
+
+
+
+function geefFeedback(bericht) {
+    const feedbackElement = document.getElementById("screenreader-feedback")
+    feedbackElement.textContent = ""
+
+    setTimeout(function() {
+        feedbackElement.textContent = bericht;
+
+        setTimeout(function() {
+            feedbackElement.textContent = "";
+        }, 1000);
+    }, 500);
+}
+
 function verwijderOpgeslagenArtikel() {
     const activeElement = document.activeElement;
     const opgeslagenLink = activeElement.closest("#opgeslagen-links a");
 
+    if(!opgeslagenLink) {
+        geefFeedback("geen artikel gevonden")
+    }
+
     opgeslagenLink.parentElement.remove();
+    geefFeedback("artikel verwijderd")
+
 }
 
 

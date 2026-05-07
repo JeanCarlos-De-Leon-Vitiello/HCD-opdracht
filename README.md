@@ -197,29 +197,15 @@ het zou leuk zijn als je artikelen kon opslaan op basis van de title.
 
 **Wat heb ik gedaan?**
 - sortcuts aangepast en dat ook in de paneel verwerkt.
+- geluid laten afspelen wanneer je iets hebt opgeslagen. 
+- shortcut voor het openen en sluiten van het hulppaneel 
 - getest met berend
 
-**Hoe lang duurde het?**
-
-
 **Wat heb ik geleerd?**
-
+Deze week heb ik geleerd dat sneltoetsen duidelijk en logisch moeten zijn voor de gebruiker. Uit de test kwam naar voren dat sommige sneltoetsen eerst te simpel waren, waardoor ik ze heb moeten aanpassen. Ook heb ik geleerd dat feedback heel belangrijk is, vooral voor blinde gebruikers. Wanneer iemand een actie uitvoert, zoals een artikel opslaan moet de gebruiker direct weten dat het gelukt is. Daarnaast heb ik geleerd dat een hulppaneel beter werkt als je het snel kunt openen en sluiten, in plaats van dat de informatie ergens verstopt staat op de pagina.
 
 **Wat ga ik volgende week doen?**
-
-
-## Week 3/1
-**Wat heb ik gedaan?**
-- shortcut voor de paneel openen en sluiten maken
-- geluid toegevoed zodra je een artikel opslaat
-
-**Hoe lang duurde het?**
-
-
-**Wat heb ik geleerd?**
-
-
-**Wat ga ik volgende week doen?**
+Volgende week wil ik verder werken aan het opslaan en verwijderen van artikelen. Ik wil ervoor zorgen dat gebruikers artikelen kunnen opslaan op basis van de titel en dat opgeslagen artikelen makkelijk terug te vinden zijn. Ook wil ik de feedback voor de screenreader verder verbeteren, zodat elke actie duidelijk wordt bevestigd. Ook wil ik testen of de aangepaste sneltoetsen logisch werken en of het hulppaneel goed te gebruiken is voor berend.
 
 ## Week 3/2
 <details>
@@ -247,15 +233,11 @@ het zou leuk zijn als je artikelen kon opslaan op basis van de title.
 - focus border dikte kunnen aanpassen.
 - border color kunnen aanpassen.
 
-
 </details>
 
 **Wat heb ik gedaan?**
 - functie voor het controlleren of er al een link in de paneel bestaat die je weer probeerd op te slaan om dubbele bookmarks te voorkomen.
 - de nieuwe artikel save boven in de lijst toevoegen door prepend te gebruiken inplaats van appendChild
-
-**Hoe lang duurde het?**
-
 
 **Wat heb ik geleerd?**
 .som(): ik heb geleerd dat je met .some() kunt controleren of er in een array minstens één item is dat aan een bepaalde voorwaarde voldoet waardoor je een boolean terug krijgt.
@@ -265,6 +247,7 @@ spread syntax [...]: ik heb geleerd dat je met de spread syntax een array kunt k
 prepend(): ik heb geleerd dat je met prepend() een element boven de anderen children kan plaatsen. terwijl appendChild() het onder de children plaatst.
 
 **Wat ga ik volgende week doen?**
+Volgende week wil ik verder werken aan het verwijderen van opgeslagen bookmarks. Ik wil ervoor zorgen dat een gebruiker makkelijk een opgeslagen artikel kan verwijderen en dat er feedback wordt gegeven wanneer dit is gelukt. Ook wil ik kijken hoe ik het hulppaneel beter toegankelijk kan maken, bijvoorbeeld door de elementen in het paneel goed in de tabvolgorde te zetten en ervoor te zorgen dat het paneel met een sneltoets geopend en gesloten kan worden.
 
 ## Week 4/1
 **Wat heb ik gedaan?**
@@ -272,11 +255,8 @@ prepend(): ik heb geleerd dat je met prepend() een element boven de anderen chil
 - functie om opgeslagen links te kunnen verwijderen.
 - De shortcuts in de hulpaneel in de tab volgorde gezet.
 
-**Hoe lang duurde het?**
-
-
 **Wat heb ik geleerd?**
-
+Deze week heb ik geleerd hoe belangrijk duidelijke feedback is voor gebruikers die met een screenreader werken. Een belangrijk leerpunt was hoe je een bericht direct kan laten voorlezen door gebruik te maken van een element met `aria-live`. Door de tekst in dit element aan te passen na een actie, zoals het opslaan van een startpositie of het verwijderen van een bookmark krijgt de gebruiker direct een feedback.
 
 **Wat ga ik volgende keer doen?**
 uitzoeken waarom de screen reader en browser focus niet samen bewegen.
@@ -292,21 +272,45 @@ testen of de feedback van het opslaan van een positie ook bij hem maar 1 keer ge
 
 
 **Bevindingen test**
-
-
+- de feedback bij het opslaan van positie werkt heel goed bij berened.
+- wanneer je de pagina herlaad dan focust het op de element die ik als start positie heb opgeslagen maar dan als je tab drukt dan gaat het niet door naar de volgende element maar spring het weer naar het begin van het scherm.
+- het aanpassen van tekst grotes is voor mij niet heel nodig of handig omdat ik dat niet echt zou gebruiken.
+- mis kan je een lijst maken met opgeslagen positie zodat je bijvoorbeeld gelijk naar de inlog page kan gaan ofzo.
+- is het mogelijk om het als een extensie te maken zodat je het op elke website kan gebruiken?
 
 </details>
 
 **Wat heb ik gedaan?**
-
-
-**Hoe lang duurde het?**
-
+- getest met Berend. 
+- Ik heb gekeken of de feedback goed wordt voorgelezen door de screenreader
+- melding wanneer een element niet opgeslagen kan worden. 
 
 **Wat heb ik geleerd?**
+Ik heb geleerd dat het opslaan en terugzetten van focus niet altijd genoeg is om de navigatie goed te laten werken. Tijdens de test merkte ik dat de focus na het herladen wel op het opgeslagen element komt, maar dat de tabvolgorde daarna niet altijd logisch doorgaat. Daardoor heb ik geleerd dat toegankelijkheid niet alleen gaat over waar de focus staat, maar ook over hoe de gebruiker daarna verder verwacht te kunnen navigeren.
 
+Ook heb ik geleerd dat niet elke extra functie voor iedere gebruiker nuttig is. Het aanpassen van tekstgrootte leek eerst handig, maar uit de test met berend bleek dat dit voor Berend niet echt nodig was.
 
 **Wat ga ik volgende week doen?**
+Volgende week wil ik onderzoeken hoe ik de tabvolgorde na het terugzetten van een opgeslagen startpositie kan verbeteren. Ik wil ervoor zorgen dat de gebruiker na het herladen logisch verder kan navigeren vanaf het opgeslagen element. Ook wil ik nadenken over de mogelijkheid om meerdere startposities op te slaan in een lijst, zodat een gebruiker snel naar verschillende belangrijke onderdelen van een pagina kan springen.
+
+## Week 5
+**Wat heb ik gedaan**
+- feedback toegevoegd bij het verwijderen van een artikel uit de bookmarks
+
+# Eindreflectie
+Tijdens dit project heb ik een prototype gemaakt voor Berend, die blind is en websites gebruikt met een screenreader. Ik heb mij vooral gericht op hoe hij door een website navigeert, hoe hij feedback krijgt en hoe hij sneller bij belangrijke onderdelen van een pagina kan komen. Door meerdere keren met hem te testen, heb ik mijn ontwerp steeds aangepast aan zijn manier van werken.
+
+De Exclusive Design principles hebben mij geholpen om bepaalde ontwerpkeuzes te maken. Bij **study situation** heb ik niet geprobeerd om een algemene oplossing voor iedereen te maken, maar juist gekeken naar de specifieke situatie van Berend. Door hem te testen en vragen te stellen over zijn navigatie, sneltoetsen en frustraties, ontdekte ik wat voor hem belangrijk is. Daardoor heb ik functies zoals de startpositie, bookmarks en screenreader feedback gemaakt. Hij vertelde dat hij bij youtube had onthouden hoeveel keer hij op tab moet drukken om bij een plek te komen. met de startpositie functie zou dat veel makkelijker kunnen.
+
+Bij **ignore conventions** heb ik geprobeerd om niet zomaar standaard websitepatronen te volgen. Normaal wordt een hulppaneel bijvoorbeeld vaak ergens visueel op de pagina gezet, maar voor Berend was het belangrijker dat hij het snel kon openen met een shortcut en dat de onderdelen goed in de tabvolgorde stonden. Ook heb ik gekeken naar sneltoetsen die beter passen bij zijn manier van werken, in plaats van alleen normale muisnavigatie of standaard knoppen te gebruiken.
+
+Met **prioritise identity** heb ik Berends persoonlijke voorkeuren centraal gezet. Zijn manier van internet gebruiken, zijn screenreader, zijn behoefte aan duidelijke feedback en zijn voorkeur voor snelle navigatie hebben invloed gehad op het eindresultaat. Niet elke toegankelijke functie was automatisch nuttig voor hem. Zo bleek tekstgrootte aanpassen minder belangrijk, terwijl duidelijke feedback en het opslaan van artikelen juist veel waardevoller waren. Ook liet hij in de testen zien hoe ver hij inzoomed om bepaalde headings te lezen, daardoor heb ik gekozen om grote heading en broders te maken zodat het voor hem iets makkelijker wordt om te lezen.
+
+**add nonsense** heeft geholpen om vrijer na te denken over mogelijke oplossingen. Sommige ideeen begonnen als experiment, zoals het geven van geluid bij het opslaan van een artikel. Door deze idee toch te testen, ontdekte ik dat het echt werkte voor Berend. Het geluid bij het opslaan van artikelen bleek juist heel goed aan te sluiten op zijn ervaring.
+
+Deze principes hebben dus direct invloed gehad op mijn eindresultaat. Het prototype is geen algemene nieuwssite geworden, maar een navigatietool voor Berend.
+
+Als ik meer tijd had gehad, had ik dit project verder willen uitwerken tot een browserextensie, zodat Berend deze functies niet alleen op mijn prototype maar ook op andere websites kan gebruiken. Ook had ik graag de mogelijkheid toegevoegd waarmee gebruikers hun eigen shortcuts kunnen instellen, omdat sneltoetsen per gebruiker kunnen verschillen. Daarnaast had ik verder willen onderzoeken waarom zijn screenreader en VoiceOver niet altijd goed samen lopen met de browserfocus, zodat de navigatie na het terugzetten van een startpositie beter zou werken.
 
 ## Bronnen
 **Keydown event:** 
